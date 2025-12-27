@@ -108,12 +108,6 @@ const ModuleLesson = () => {
         <section className="lesson-body" data-aos="fade-up" data-aos-delay="100">
           {renderBlocks(lesson.blocks || [])}
         </section>
-
-        <footer className="lesson-footer">
-          <div className="lesson-footer__note">
-            Want this to match your PDF exactly? Upload the PDF and I’ll convert the table of contents into this sidebar + lessons.
-          </div>
-        </footer>
       </article>
     </main>
   );

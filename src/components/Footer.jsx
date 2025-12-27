@@ -17,9 +17,9 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Platform</h4>
           <ul>
-            <li><a href="#curriculum">Curriculum</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#curriculum">Academy</a></li>
+            <li><a href="#pricing">Journal</a></li>
+            <li><a href="#instructors">Resources</a></li>
           </ul>
         </div>
         <div className="footer-col">
@@ -27,7 +27,7 @@ const Footer = () => {
           <ul>
             <li><a href="#about">About Us</a></li>
             <li><a href="#careers">Careers</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Feedback</a></li>
           </ul>
         </div>
         <div className="footer-col newsletter">
@@ -42,11 +42,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 TradeAcademy Global.</p>
+        <p>&copy; 2025 TradeFlow Global.</p>
         <div style={{ display: 'flex', gap: '20px' }}>
           <a href="#twitter">Twitter</a>
           <a href="#linkedin">LinkedIn</a>
-          <a href="#instagram">Instagram</a>
+          <a href="#instagram">YouTube</a>
+          <a href="#twitter">Discord</a>
         </div>
       </div>
     </footer>

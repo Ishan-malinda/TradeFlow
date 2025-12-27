@@ -4,7 +4,7 @@ const StartLearningSection = () => {
 
   const topCourses = [
     {
-      tag: 'Entry Level',
+      tag: 'Base Level',
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M3 3v18h18" />
@@ -14,8 +14,8 @@ const StartLearningSection = () => {
         </svg>
       ),
       title: 'Basic Foundations',
-      description: 'Market terminology, exchange mechanics, and platform setup. The essential groundwork for all future learning.',
-      modules: '12 Modules',
+      description: 'Market terminology, exchange mechanics and platform setup. The essential groundwork for all future learning.',
+      modules: '10 Contents',
       delay: 100,
       to: '/foundations'
     },
@@ -29,7 +29,7 @@ const StartLearningSection = () => {
       ),
       title: 'Market Analysis',
       description: 'Technical patterns and fundamental indicators. Learn to read the charts like a language.',
-      modules: '24 Modules',
+      modules: '24 Contents',
       delay: 200,
       to: '/market-analysis'
     },
@@ -44,7 +44,7 @@ const StartLearningSection = () => {
       ),
       title: 'Trading Psychology',
       description: 'Emotional regulation and cognitive bias control. Master the most important asset: your mind.',
-      modules: '10 Modules',
+      modules: '10 Contents',
       delay: 300,
       to: '/trading-psychology'
     }
@@ -60,7 +60,7 @@ const StartLearningSection = () => {
       ),
       title: 'Risk Management',
       description: 'Position sizing and capital preservation. The mathematical formula for longevity in the markets.',
-      modules: '8 Modules',
+      modules: '8 Contents',
       delay: 400,
       to: '/risk-management'
     },
