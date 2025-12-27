@@ -16,7 +16,8 @@ const StartLearningSection = () => {
       title: 'Basic Foundations',
       description: 'Market terminology, exchange mechanics, and platform setup. The essential groundwork for all future learning.',
       modules: '12 Modules',
-      delay: 100
+      delay: 100,
+      to: '/foundations'
     },
     {
       tag: 'Core Skill',
@@ -29,7 +30,8 @@ const StartLearningSection = () => {
       title: 'Market Analysis',
       description: 'Technical patterns and fundamental indicators. Learn to read the charts like a language.',
       modules: '24 Modules',
-      delay: 200
+      delay: 200,
+      to: '/market-analysis'
     },
     {
       tag: 'Critical',
@@ -43,7 +45,8 @@ const StartLearningSection = () => {
       title: 'Trading Psychology',
       description: 'Emotional regulation and cognitive bias control. Master the most important asset: your mind.',
       modules: '10 Modules',
-      delay: 300
+      delay: 300,
+      to: '/trading-psychology'
     }
   ];
 
@@ -58,7 +61,8 @@ const StartLearningSection = () => {
       title: 'Risk Management',
       description: 'Position sizing and capital preservation. The mathematical formula for longevity in the markets.',
       modules: '8 Modules',
-      delay: 400
+      delay: 400,
+      to: '/risk-management'
     },
     {
       tag: 'Specialist',
@@ -72,7 +76,8 @@ const StartLearningSection = () => {
       title: 'Niche & Algo Strategies',
       description: 'Algorithmic trading, Crypto-assets, and Macro-economic strategy for the modern era.',
       modules: '15 Modules',
-      delay: 400
+      delay: 400,
+      to: '/niche-algo-strategies'
     }
   ];
 

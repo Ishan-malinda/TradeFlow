@@ -3,7 +3,7 @@ const Hero = () => {
     <header className="hero">
       <div className="hero-content">
         <span className="tagline" data-aos="fade-down" data-aos-delay="200">
-          The Future of Financial Literacy
+          Welcome to the World Class Trading...
         </span>
         <h1 data-aos="fade-up" data-aos-delay="300">
           Trade with Intelligence.<br />Learn with Clarity.

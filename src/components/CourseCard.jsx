@@ -1,6 +1,8 @@
-const CourseCard = ({ tag, icon, title, description, modules, delay = 0 }) => {
-  return (
-    <div className="course-card" data-aos="fade-up" data-aos-delay={delay}>
+import { Link } from 'react-router-dom';
+
+const CourseCard = ({ tag, icon, title, description, modules, delay = 0, to }) => {
+  const cardContent = (
+    <>
       <div className="card-top">
         <span className="tag">{tag}</span>
         <div className="icon-box">{icon}</div>
@@ -20,6 +22,22 @@ const CourseCard = ({ tag, icon, title, description, modules, delay = 0 }) => {
           </svg>
         </div>
       </div>
+    </>
+  );
+
+  if (to) {
+    return (
+      <Link to={to} className="course-card-link" data-aos="fade-up" data-aos-delay={delay}>
+        <div className="course-card">
+          {cardContent}
+        </div>
+      </Link>
+    );
+  }
+
+  return (
+    <div className="course-card" data-aos="fade-up" data-aos-delay={delay}>
+      {cardContent}
     </div>
   );
 };

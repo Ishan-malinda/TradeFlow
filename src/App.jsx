@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react';
 import SplashScreen from './components/SplashScreen';
 import Nav from './components/Nav';
-import Hero from './components/Hero';
-import StartLearningSection from './components/StartLearningSection';
-import Footer from './components/Footer';
+import AppRouter from './router';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -28,9 +26,7 @@ function App() {
       {splashComplete && (
         <>
           <Nav />
-          <Hero />
-          <StartLearningSection />
-          <Footer />
+          <AppRouter />
         </>
       )}
     </div>
