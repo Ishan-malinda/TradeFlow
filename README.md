@@ -1,4 +1,4 @@
-# TradeAcademy - React Application
+# Trade Flow - React Application
 
 A professional learning platform for financial trading education, built with React and Vite.
 
