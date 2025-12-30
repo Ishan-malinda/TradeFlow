@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Academy from './pages/Academy';
 import ModuleLesson from './pages/ModuleLesson';
 import Journal from './pages/Journal';
+import JournalDashboard from './pages/JournalDashboard';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 import Foundations from './pages/Foundations';
@@ -24,6 +25,7 @@ const AppRouter = () => {
       <Route path="/risk-management" element={<RiskManagement />} />
       <Route path="/niche-algo-strategies" element={<NicheAlgoStrategies />} />
       <Route path="/journal" element={<Journal />} />
+      <Route path="/journal/dashboard" element={<JournalDashboard />} />
       <Route path="/resources" element={<Resources />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Navigate to="/" replace />} />
